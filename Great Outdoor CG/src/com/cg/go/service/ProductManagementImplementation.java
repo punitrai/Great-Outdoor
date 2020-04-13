@@ -2,10 +2,10 @@ package com.cg.go.service;
 
 import java.util.ArrayList;
 
-
 import com.cg.go.bean.ProductManagementSystem;
+import com.cg.go.dao.ProductManagementDAO;
 
-public class ProductManagementImplementation implements ProductManagement{
+public class ProductManagementImplementation implements ProductManagementDAO{
     
 	ArrayList<ProductManagementSystem> ProSys= new ArrayList<ProductManagementSystem>();
 	
