@@ -1,8 +1,8 @@
-package com.cg.go.service;
+package com.cg.go.dao;
 
 import com.cg.go.bean.ProductManagementSystem;
 
-public interface ProductManagement {
+public interface ProductManagementDAO {
 public void AddProduct(ProductManagementSystem Product );
 public boolean DeleteProduct(String ProductId);
 public boolean EditProductcolor(ProductManagementSystem P, String ProductId);
