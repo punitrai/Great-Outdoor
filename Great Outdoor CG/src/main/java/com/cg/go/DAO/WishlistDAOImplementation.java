@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import com.cg.go.bean.Wishlist;
 
-
-public class WishlistImplementationDAO implements WishlistDAO {
+public class WishlistDAOImplementation implements WishlistDAOInterface {
 
 	List<Wishlist> list = new ArrayList<Wishlist>();
 	

@@ -5,12 +5,12 @@ import java.util.List;
 
 import com.cg.go.bean.Address;
 
-public class AddressImplementationDAO implements AddressDAO
+public class AddressDAOImplementation implements AddressDAOInterface
 {
 	private List<Address> addressList;
 	public int size;
 	
-	public AddressImplementationDAO()
+	public AddressDAOImplementation()
 	{
 		addressList = new ArrayList<Address>();
 		size = 0;

@@ -1,6 +1,6 @@
 package com.cg.go.DAO;
 
-public interface AddressDAO
+public interface AddressDAOInterface
 {
 	public void addAddress(String city, String state, String country);
 	public void updateCity(int pos, String value);
