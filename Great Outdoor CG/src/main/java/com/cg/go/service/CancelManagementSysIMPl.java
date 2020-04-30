@@ -8,11 +8,11 @@ public class CancelManagementSysIMPl implements CancelMangementSys{
 		return "Your Order has been cancelled";
 	}
 
-	@Override
-	public String cancelAnProduct() {
-		return "Your Product has been cancelled";
-		// TODO Auto-generated method stub
-		
-	}
+//	@Override
+//	public String cancelAnProduct() {
+//		return "Your Product has been cancelled";
+//		// TODO Auto-generated method stub
+//		
+//	}
 
 }

@@ -50,7 +50,7 @@ public class Validator {
 	}
 
 	public static void Isvalidphone(String phNum) throws Isvalidphone {
-		String pattern = "[0-9]{10,11}";
+		String pattern = "[0-9]{9,11}";
 		if (!phNum.matches(pattern)) {
 			throw new Isvalidphone("Phone number should be in numeric");
 		}

@@ -2,6 +2,7 @@ package com.cg.go.junit;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import com.cg.go.bean.ProductManagementSystem;
@@ -29,8 +30,8 @@ ProductManagementSystem p=new ProductManagementSystem();
 		}
 	@Test
    public void test4() {
-	   double expected=1500;
-	   double actual=p.setPrice(15000);
+	   Object expected=15000.5;
+	   Object actual=p.setPrice((double) expected);
 	   assertEquals(expected,actual);
    }
 	@Test
@@ -49,7 +50,7 @@ ProductManagementSystem p=new ProductManagementSystem();
 	@Test
 	public void test7() {
 		int expected=2;
-		int actual=p.setProductCategory(5);
+		int actual=p.setProductCategory(expected);
 		assertEquals(expected,actual);
 	}
 }
